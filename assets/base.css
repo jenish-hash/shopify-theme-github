@@ -2904,7 +2904,7 @@ details-disclosure > details {
 
 .gradient {
   background: rgb(var(--color-background));
- background: lightyellow;
+  background: var(--gradient-background);
   background-attachment: fixed;
 }
 
@@ -3565,4 +3565,9 @@ details-disclosure > details {
   100% {
     transform: translateX(100%) scaleX(0);
   }
+}
+
+
+.gradient {
+ background: lightyellow;
 }
